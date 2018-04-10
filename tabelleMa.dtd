@@ -1,0 +1,21 @@
+<!ELEMENT tabelleMa (tabname,zeile+)>
+<!ELEMENT zeile (artnr,artbez,preis,mge,steu,edat)>
+<!ELEMENT tabname (#PCDATA)>
+<!ELEMENT artnr (#PCDATA)>
+<!ELEMENT artbez (#PCDATA)>
+<!ELEMENT preis (#PCDATA)>
+<!ELEMENT mge (#PCDATA)>
+<!ELEMENT steu (#PCDATA)>
+<!ELEMENT edat (#PCDATA)>
+<!ATTLIST artnr
+       DT CDATA #REQUIRED>
+<!ATTLIST artbez
+       DT CDATA #REQUIRED>
+<!ATTLIST preis
+       DT CDATA #REQUIRED>
+<!ATTLIST mge
+       DT CDATA #REQUIRED>
+<!ATTLIST steu
+       DT CDATA #REQUIRED>
+<!ATTLIST edat
+       DT CDATA #REQUIRED>

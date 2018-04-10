@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE tabelleMa SYSTEM "tabelleMa.dtd">
+<tabelleMa>
+<tabname>Artikel</tabname>
+	<zeile>
+		<artnr DT="int">4711</artnr>
+		<artbez DT="char(30)">Parfuem</artbez>
+		<preis DT="decimal(7,2)">10.25</preis>
+		<mge DT="int">2</mge>
+		<steu DT="decimal(5,2)">0.19</steu>
+		<edat DT="date"> 14.10.17 </edat>
+	</zeile>
+	<zeile>
+		<artnr DT="int">4850</artnr>
+		<artbez DT="char(30)">Seife</artbez>
+		<preis DT="decimal(7,2)">0.45</preis>
+		<mge DT="int">2</mge>
+		<steu DT="decimal(5,2)">0.19</steu>
+		<edat DT="date"> 10.04.18 </edat>
+	</zeile>
+	<zeile>
+		<artnr DT="int">4850</artnr>
+		<artbez DT="char(30)">Kamm</artbez>
+		<preis DT="decimal(7,2)">2.65</preis>
+		<mge DT="int">2</mge>
+		<steu DT="decimal(5,2)">0.19</steu>
+		<edat DT="date"> 10.04.18 </edat>
+	</zeile>
+
+	<zeile>
+		<artnr DT="int">100</artnr>
+		<artbez DT="char(30)">Tomate</artbez>
+		<preis DT="decimal(7,2)">2.99</preis>
+		<mge DT="int">2</mge>
+		<steu DT="decimal(5,2)">0.07</steu>
+		<edat DT="date"> 10.04.18 </edat>
+	</zeile>
+	<zeile>
+		<artnr DT="int">101</artnr>
+		<artbez DT="char(30)">Gurke</artbez>
+		<preis DT="decimal(7,2)">1.75</preis>
+		<mge DT="int">2</mge>
+		<steu DT="decimal(5,2)">0.07</steu>
+		<edat DT="date"> 10.04.18 </edat>
+	</zeile>
+	<zeile>
+		<artnr DT="int">102</artnr>
+		<artbez DT="char(30)">Messer</artbez>
+		<preis DT="decimal(7,2)">19.99</preis>
+		<mge DT="int">2</mge>
+		<steu DT="decimal(5,2)">0.19</steu>
+		<edat DT="date"> 10.04.18 </edat>
+	</zeile>
+</tabelleMa>
